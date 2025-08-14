@@ -1,6 +1,6 @@
 context:
-  version: 0.10.0
-  python_min: 3.11
+  version: "0.11.2"
+  python_min: '3.11'
 
 package:
   name: any-llm-sdk
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/a/any-llm-sdk/any_llm_sdk-${{ version }}.tar.gz
-    sha256: 62081ae551515e8bf59bd472d8d9995130f837d0f6792c52a507ab3450d7418e
+    sha256: c27996cd6a24bd96901deb8b341f6fa76784d0789c11ac469eb73c1d68adbcda
 
 build:
   number: 0
