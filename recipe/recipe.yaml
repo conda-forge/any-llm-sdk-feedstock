@@ -11,7 +11,7 @@ source:
     sha256: 7bac6a34da7378942619930c7c502927a3c561d86ef2790390b74648a906e5f6
 
 build:
-  number: 0
+  number: 1
   script: ${{ PYTHON }} -m pip install .
   noarch: python
 
@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - pydantic
+    - pydantic >2,<3
     - openai >=1.99.3
     - rich
     - httpx
