@@ -1,5 +1,5 @@
 context:
-  version: "1.6.2"
+  version: "1.7.0"
   python_min: '3.11'
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/a/any-llm-sdk/any_llm_sdk-${{ version }}.tar.gz
-    sha256: e71875cd58a838da9ddfbd131ecccbb43a124a08abc8e8d4beba69ed3bad8ec7
+    sha256: 667f3a1ba5ef0478fd30cf961a62ebb74c2a47597a7ae2c8947ba983f2f97bc5
 
 build:
   number: 0
