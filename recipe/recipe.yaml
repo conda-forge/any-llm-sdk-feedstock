@@ -1,5 +1,5 @@
 context:
-  version: "1.27.0"
+  version: "1.27.2"
 
 package:
   name: any-llm-sdk
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/a/any-llm-sdk/any_llm_sdk-${{ version }}.tar.gz
-    sha256: 9e18f1c270c2f0a125b209e5f975c5396d81f838f87bc9d98da240397d56e3ed 
+    sha256: 4ab1998423825fa01a8ddd39c9816edbc5e78ebc2888a35ef703157e00beaf08
 
 build:
   number: 0
